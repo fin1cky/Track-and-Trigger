@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OtherPage1">
+
+    <!--<com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/track"
+        android:layout_width="54dp"
+        android:layout_height="73dp"
+        android:layout_gravity="bottom|right"
+        android:layout_margin="16dp"
+        android:contentDescription="fab_content_desc"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.395"
+        app:layout_constraintStart_toEndOf="@+id/textView4"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.902"
+        tools:ignore="VectorDrawableCompat" />-->
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/DiaryOther"
+        android:layout_width="54dp"
+        android:layout_height="73dp"
+        android:layout_gravity="bottom|right"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="16dp"
+        android:contentDescription="fab_content_desc"
+        app:layout_constraintStart_toEndOf="@+id/textView4"
+        app:layout_constraintTop_toBottomOf="@+id/Trigger"
+        tools:ignore="VectorDrawableCompat" />
+
+    <Button
+        android:id="@+id/Trackbtn"
+        android:layout_width="161dp"
+        android:layout_height="191dp"
+        android:background="@drawable/ic_baseline_shopping_cart_24"
+        android:text="Track"
+        app:backgroundTint="@color/black"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.132"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/BillsReportsOther"
+        android:layout_width="161dp"
+        android:layout_height="191dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="88dp"
+        android:background="@drawable/ic_baseline_attach_money_24"
+        android:gravity="bottom"
+        android:text="Bills/Reports"
+        android:textColor="@color/black"
+        app:backgroundTint="#4CAF50"
+        app:layout_constraintStart_toEndOf="@+id/Trackbtn"
+        app:layout_constraintTop_toBottomOf="@+id/header" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="260dp"
+        android:layout_height="46dp"
+        android:fontFamily="monospace"
+        android:text="Other Functionalities "
+        android:textColor="@color/com_smart_login_code"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.105"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/BillsReportsOther"
+        app:layout_constraintVertical_bias="0.382" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/button2"
+        android:layout_width="54dp"
+        android:layout_height="73dp"
+        android:layout_gravity="bottom|right"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:contentDescription="fab_content_desc"
+        android:elevation="10dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/arrow_down_foreground"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="VectorDrawableCompat" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/Button"
+        android:layout_width="54dp"
+        android:layout_height="73dp"
+        android:layout_gravity="bottom|right"
+        android:layout_margin="16dp"
+        android:contentDescription="fab_content_desc"
+        android:src="@drawable/arrow_down_lay"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.329"
+        app:layout_constraintStart_toEndOf="@+id/textView4"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.797"
+        tools:ignore="VectorDrawableCompat" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/Trigger"
+        android:layout_width="54dp"
+        android:layout_height="73dp"
+        android:layout_gravity="bottom|right"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="20dp"
+        android:contentDescription="fab_content_desc"
+        app:layout_constraintStart_toEndOf="@+id/textView4"
+        app:layout_constraintTop_toBottomOf="@+id/Button"
+        tools:ignore="VectorDrawableCompat" />
+
+    <TextView
+        android:id="@+id/TriggerText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="54dp"
+        android:layout_marginRight="54dp"
+        android:text="Trigger"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/Trigger"
+        app:layout_constraintHorizontal_bias="0.873"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        app:layout_constraintVertical_bias="0.28" />
+
+    <Button
+        android:id="@+id/logout_other"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:elevation="10dp"
+        android:text="LogOut"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button2" />
+
+    <TextView
+        android:id="@+id/tPd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="54dp"
+        android:layout_marginRight="54dp"
+        android:text="Personal Diary"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/Trigger"
+        app:layout_constraintHorizontal_bias="0.834"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        app:layout_constraintVertical_bias="0.859" />
+
+    <TextView
+        android:id="@+id/header"
+        android:layout_width="411dp"
+        android:layout_height="179dp"
+        android:background="@drawable/header_bg"
+        android:gravity="center_vertical|bottom"
+        android:padding="12dp"
+        android:text="Dashboard"
+        android:textColor="#fafafa"
+        android:textSize="40sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="220dp"
+        android:layout_marginLeft="220dp"
+        android:layout_marginBottom="4dp"
+        android:text="for Others"
+        android:textColor="#fafafa"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="@id/header"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/BrowserOther"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="76dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:text="Browser"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logout_other" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

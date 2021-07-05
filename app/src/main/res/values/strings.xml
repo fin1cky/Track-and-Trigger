@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Track n Trigger(y)</string>
+    <string name="title_activity_full_dashboard">Full_dashboard</string>
+    <string name="tab_text_1">Groceries</string>
+    <string name="tab_text_2">Appliances</string>
+    <string name="tab_text_3">Reports</string>
+    <string name="facebook_app_id">1767007236800106</string>
+    <string name="fb_login_protocol_scheme">fb1767007236800106</string>
+    <string name="title_activity_track_tabbed">Track_tabbed</string>
+    <string-array name="category_array">
+        <item>Groceries</item>
+        <item>Appliances</item>
+        <item>Reports</item>
+    </string-array>
+    <string name="title_activity_dairy_tab">Dairy_tab</string>
+</resources>

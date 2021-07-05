@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OTPverify1"
+    android:background="@drawable/bg_grad">
+
+    <Button
+        android:id="@+id/verify"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="verify"
+        app:backgroundTint="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.50"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.90" />
+
+    <TextView
+        android:id="@+id/MobileNumber"
+        android:layout_width="284dp"
+        android:layout_height="44dp"
+        android:layout_marginBottom="272dp"
+        android:gravity="center"
+        android:text="Mobile Number"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/verify"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.313" />
+
+    <EditText
+        android:id="@+id/MOTP"
+        android:layout_width="317dp"
+        android:layout_height="44dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="Enter otp"
+        android:textAlignment="center"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/verify"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/MobileNumber"
+        app:layout_constraintVertical_bias="0.74"
+        android:gravity="center_horizontal" />
+
+    <Button
+        android:id="@+id/SendOTP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="384dp"
+        android:text="Send OTP"
+        app:backgroundTint="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.50"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/MobileNo" />
+
+    <EditText
+        android:id="@+id/MobileNo"
+        android:layout_width="280dp"
+        android:layout_height="46dp"
+        android:ems="10"
+        android:hint="Enter Contact Number"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.48"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/MobileNumber"
+        app:layout_constraintVertical_bias="0.078"
+        android:gravity="center_horizontal" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

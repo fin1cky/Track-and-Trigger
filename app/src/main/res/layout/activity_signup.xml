@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Signup">
+    android:layout_width="match_parent" android:layout_height="match_parent" tools:context=".Signup">
+
+    <TextView
+        android:id="@+id/heading"
+        android:layout_width="349dp"
+        android:layout_height="55dp"
+        android:fontFamily="monospace"
+        android:text="   Signup page"
+        android:textColor="@color/purple_500"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.022" />
+
+    <EditText
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintVertical_bias="0.038"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:id="@+id/SignupUsername"
+        android:autofillHints=""
+        app:layout_constraintTop_toBottomOf="@+id/heading"
+        app:layout_constraintHorizontal_bias="0.0"
+        android:padding="10dp"
+        android:inputType="textPersonName"
+        android:hint="username"
+        android:ems="10"
+        android:layout_marginRight="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"/>
+
+    <Button
+        android:id="@+id/Registerbutton"
+        android:layout_width="115dp"
+        android:layout_height="65dp"
+        android:layout_marginBottom="112dp"
+        android:text="register"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/PhoneNo"
+        app:layout_constraintVertical_bias="0.611" />
+
+    <EditText
+        android:id="@+id/LoginRedirect"
+        android:layout_width="271dp"
+        android:layout_height="42dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:fontFamily="sans-serif-medium"
+        android:inputType="textPersonName"
+        android:text="Already have an account login here"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="@color/teal_200"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Registerbutton"
+        app:layout_constraintVertical_bias="0.48"
+        tools:ignore="LabelFor" />
+
+    <EditText
+        android:id="@+id/Email"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:autofillHints=" "
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/SignupPassword"
+        app:layout_constraintVertical_bias="0.114" />
+
+    <EditText
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintVertical_bias="0.05"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:id="@+id/SignupPassword"
+        android:autofillHints=""
+        app:layout_constraintTop_toBottomOf="@+id/SignupUsername"
+        app:layout_constraintHorizontal_bias="0.0"
+        android:inputType="textPassword"
+        android:hint="Password"
+        android:ems="10"
+        android:layout_marginRight="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="8dp"/>
+
+    <EditText
+        android:id="@+id/PhoneNo"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="Contact number"
+        android:inputType="phone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Email"
+        app:layout_constraintVertical_bias="0.046" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

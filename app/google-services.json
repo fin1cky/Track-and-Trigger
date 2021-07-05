@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "280401039232",
+    "firebase_url": "https://track-n-trigger-y.firebaseio.com",
+    "project_id": "track-n-trigger-y",
+    "storage_bucket": "track-n-trigger-y.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:280401039232:android:f5818c5b81e843bc043b65",
+        "android_client_info": {
+          "package_name": "com.example.trackntriggery"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "280401039232-td5jkech4fe8jti37hi3p347gallekg3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDlboTnDbr7_-ec8oQszXHn8J7AZPPxKkk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "280401039232-td5jkech4fe8jti37hi3p347gallekg3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
